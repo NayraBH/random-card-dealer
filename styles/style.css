@@ -1,0 +1,61 @@
+body {
+    background-color: green;
+}
+
+.container {
+    margin: 100px auto;
+    
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.number {
+    text-align: center;
+    font-size: 125px;
+    font-weight: bold;
+}
+
+.suits {
+    padding-left: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    height: 100px;
+}
+
+.red {
+    color: red;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.new-cardBtn {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.timer {
+    padding: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;   
+}
