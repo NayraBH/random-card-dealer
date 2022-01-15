@@ -31,6 +31,11 @@ const generateCard = () => {
         suitsCard[0].classList.add("red");
         suitsCard[1].classList.add("red");
     }
+    else {
+        numberCard.classList.remove("red");
+        suitsCard[0].classList.remove("red");
+        suitsCard[1].classList.remove("red");
+    }
 }
 
 const setTimer = () => {
